@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WakeUp Dua"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:backgroundTint="#B6FFD180" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leaving Home Dua"
+        app:backgroundTint="#B6FFD180"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travelling Dua"
+        app:backgroundTint="#B6FFD180"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entering Masjid Dua"
+        app:backgroundTint="#B6FFD180"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leaving Masjid Dua"
+        app:backgroundTint="#B6FFD180"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entering Home Dua"
+        app:backgroundTint="#B6FFD180"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeping Dua"
+        app:backgroundTint="#B6FFD180"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+       />
+</LinearLayout>
